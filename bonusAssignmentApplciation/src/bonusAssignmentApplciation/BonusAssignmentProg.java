@@ -7,11 +7,11 @@ public class BonusAssignmentProg {
 
 	public static void main(String[] args) {
 
-		ArrayList nameList = new ArrayList();
-		ArrayList majorList = new ArrayList();
-		ArrayList stateList = new ArrayList();
-		ArrayList GPAList = new ArrayList();
-		ArrayList genderList = new ArrayList();
+		ArrayList<String> nameList = new ArrayList<String>();
+		ArrayList<String> majorList = new ArrayList<String>();
+		ArrayList<String> stateList = new ArrayList<String>();
+		ArrayList<String> GPAList = new ArrayList<String>();
+		ArrayList<String> genderList = new ArrayList<String>();
 		ArrayList<Double> numeGPA = new ArrayList<Double>();
 
 		String tempGPA, tempGender, tempMajor, tempState;
@@ -117,7 +117,7 @@ public class BonusAssignmentProg {
 
 	}
 
-	static void avgBy(ArrayList avgBy, ArrayList<Double> gpa) {
+	static void avgBy(ArrayList<String> avgBy, ArrayList<Double> gpa) {
 		String temp = "";
 
 		for (int i = 0; i < avgBy.size(); i++) {
